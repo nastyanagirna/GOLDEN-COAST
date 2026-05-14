@@ -360,79 +360,63 @@ body{
     margin-top:25px;
 }
 
-@media(max-width:1000px){
-
-body{
-zoom:100%;
-}
-
-.hero{
-height:auto;
-min-height:100vh;
-padding-bottom:40px;
-}
+@media screen and (max-width:1000px){
 
 .top-menu{
-position:relative;
-flex-direction:column;
-align-items:center;
-padding:18px;
-gap:14px;
+position:relative !important;
+padding:20px 15px !important;
+display:flex !important;
+flex-direction:column !important;
+align-items:center !important;
+gap:10px !important;
 }
 
 .logo{
-font-size:26px;
-text-align:center;
-align-items:center;
-letter-spacing:3px;
+font-size:26px !important;
+text-align:center !important;
+align-items:center !important;
 }
 
 .hotel-stars{
-justify-content:center;
-font-size:14px;
-gap:6px;
-margin-top:4px;
-}
-
-.hotel-stars span{
-font-size:11px;
+justify-content:center !important;
+font-size:14px !important;
+gap:5px !important;
+margin-top:5px !important;
 }
 
 .top-menu ul{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:8px 20px;
-width:100%;
-max-width:280px;
-justify-items:center;
-padding:0;
-}
-
-.top-menu li{
-list-style:none;
+display:grid !important;
+grid-template-columns:1fr 1fr !important;
+gap:8px 18px !important;
+max-width:280px !important;
+width:100% !important;
+padding:0 !important;
+margin:0 auto !important;
+justify-items:center !important;
 }
 
 .top-menu a{
-font-size:15px;
+font-size:15px !important;
 }
 
 .hero-content{
-padding:40px 20px 30px 20px;
-align-items:center;
-text-align:center;
+padding:20px 20px 40px 20px !important;
+text-align:center !important;
+align-items:center !important;
 }
 
 .hero-content h1{
-font-size:56px;
-line-height:0.95;
-margin-top:10px;
+font-size:56px !important;
+line-height:0.95 !important;
+margin-top:0 !important;
 }
 
 .hero-content p{
-font-size:18px;
-margin-top:18px;
+font-size:18px !important;
+margin-top:15px !important;
 }
 
+}
 .container{
 flex-direction:column;
 padding:20px;
